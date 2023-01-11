@@ -1,1 +1,46 @@
-/* Aquí va el CSS */
+.carta{
+    border: 4px yellow solid;
+    border-radius: 7px;
+    width:250px;
+    height:400px;    
+    float:left;
+    margin-right: 20px;
+    padding: 12px;
+    }
+.cabecero{
+    
+}
+.centro{
+    background-image:url(img/pokemon-background.png);
+}
+.h3{
+    margin-left: 100px;
+}
+.h2{
+    font: bold;
+
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+}
+.fondo {
+    background-image: url("./img/pokemon-background.png");
+  
+}
+.fuego{
+    background-color: orange;
+
+}
+.rayo{
+    background-color: yellow;
+
+}
+.agua{
+    background-color: aqua;
+}
+.yerba{
+    background-color: greenyellow;
+
+}
