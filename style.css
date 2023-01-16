@@ -1,14 +1,18 @@
 .carta{
-    border: 4px yellow solid;
+    border: 8px rgba(255, 208, 0, 0.685) solid;
     border-radius: 7px;
     width:250px;
     height:400px;    
-    float:left;
-    margin-right: 20px;
+    float:left;    
     padding: 12px;
+    margin: 5px;
     }
 .cabecero{
+margin-bottom: 10px;
     
+}
+.hp{
+    float: right;
 }
 .centro{
     background-image:url(img/pokemon-background.png);
@@ -16,8 +20,9 @@
 .h3{
     margin-left: 100px;
 }
-.h2{
+.titulo{
     font: bold;
+    font-size: 20px;
 
 }
 
@@ -27,18 +32,24 @@
 }
 .fondo {
     background-image: url("./img/pokemon-background.png");
+    border: 2px solid rgb(185, 159, 12);
+    border-radius: 2px;
   
 }
+.habilidades {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
 .fuego{
-    background-color: orange;
+    background-color: rgba(226, 91, 13, 0.753);
 
 }
 .rayo{
-    background-color: yellow;
+    background-color: rgb(238, 213, 102);
 
 }
 .agua{
-    background-color: aqua;
+    background-color: rgb(119, 189, 189);
 }
 .yerba{
     background-color: greenyellow;
